@@ -28,6 +28,14 @@ February 07, 2024
 
 # SkyLink Communications Customer Cluster Analysis
 
+## Overview
+
+This project leverages the power of cluster analysis to dissect the diverse customer base of SkyLink Communications into distinct segments. By employing a systematic approach to data preparation, normalization, and exploration, I identify key continuous variables that offer a deep insight into customer behaviors and preferences, including customer tenure, service offerings, and charges for international and data services.
+
+Through descriptive statistics, I assess the data's distribution to ensure its suitability for clustering, identifying any patterns or anomalies that might influence the process. To enhance the analysis's accuracy, the data is normalized to ensure that each variable contributes equally to the distance computations, a critical step for the k-means clustering algorithm's effectiveness. The optimal number of clusters is determined using the Elbow Method, which guides the segmentation process to ensure meaningful differentiation between customer groups.
+
+The project culminates in a detailed k-means clustering exercise, identifying four distinct customer segments: Global Communicators, Emerging Users, Local Loyalists, and Data-Driven customers. Each cluster is characterized by unique behaviors and preferences, offering SkyLink Communications invaluable insights into tailoring their marketing strategies and service offerings to meet the diverse needs of their customer base.
+
 ## Data Preparation and Exploration
 
 ``` r
